@@ -28,7 +28,7 @@ AND CITY NOT LIKE ('I%')
 AND CITY NOT LIKE ('O%') 
 AND CITY NOT LIKE ('U%')
 
-ORDER BY CITY
+ORDER BY CITy
 
 ---ex7: hackerank-name-of-employees.
 SELECT NAME FROM EMPLOYEE
