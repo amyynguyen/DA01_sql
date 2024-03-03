@@ -6,7 +6,7 @@ WHERE MOD(ID,2) = 0
 SELECT COUNT(CITY) - COUNT(DISTINCT (CITY)) FROM STATION
 
 ---ex3: hackerrank-the-blunder.
-SELECT CEIL(AVG(Salary) - AVG(replace(salary, '0','')))
+SELECT CEIL(AVG(Salary) - AVG(REPLACE(salary, '0','')))
 
 FROM EMPLOYEES
 
