@@ -16,7 +16,7 @@ FROM pharmacy_sales
 GROUP BY manufacturer
 ORDER BY SUM(total_sales) DESC, manufacturer 
 
----(REVIEW NEEDED) ex4: avg-review-ratings.
+---ex4: avg-review-ratings.
 SELECT 
 EXTRACT(month FROM submit_date) as mth,
 product_id,
