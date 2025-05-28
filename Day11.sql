@@ -14,7 +14,7 @@ SELECT
   ) AS confirm_rate
 FROM emails 
 LEFT JOIN texts
-  ON emails.email_id = texts.email_id AND texts.signup_action = 'Confirmed';
+  ON emails.email_id = texts.email_id AND texts.signup_action = 'Confirmed'
   
 #ex3: datalemur-time-spent-snaps.
 SELECT 
